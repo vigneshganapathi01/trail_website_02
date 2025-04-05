@@ -194,7 +194,7 @@ const ThankYouPage = () => {
                 <DialogTrigger asChild>
                   <button className="relative w-full aspect-video bg-gray-900 rounded-lg overflow-hidden">
                     <img 
-                      src="\uploads\thumpnail.jpeg"
+                      src="\uploads\thumpnail\thumpnail.jpeg"
                       alt="Template preview" 
                       className="w-full h-full object-cover"
                     />
