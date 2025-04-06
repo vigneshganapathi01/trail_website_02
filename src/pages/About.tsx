@@ -18,15 +18,10 @@ const teamMembers = [
     bio: 'Award-winning designer who leads our creative team with a focus on innovative and user-friendly templates.',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop'
   }, {
-    name: 'Jessica Williams',
-    role: 'Lead Developer',
-    bio: 'Full-stack developer with expertise in creating responsive, accessible, and high-performance web templates.',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop'
-  }, {
-    name: 'Daniel Martinez',
-    role: 'Customer Success',
-    bio: 'Passionate about helping clients make the most of our templates and ensuring exceptional user experiences.',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop'
+    name: 'Vignesh Ganapathi',
+    role: 'Lead Developer - Data Scientist',
+    bio: 'Combines front-end development skills with data science to deliver optimized, scalable digital solutions.',
+    image: '/uploads/team/vignesh.jpg'
   }
 ];
 
@@ -164,7 +159,7 @@ We built Storient to bridge the gap between quality content and stunning design.
               Meet the talented individuals behind TemplatePro who work tirelessly to create the best templates for our users.
             </p>
               
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {teamMembers.map((member, index) => <div key={index} className="text-center">
                   <div className="relative mb-4 mx-auto w-40 h-40 rounded-full overflow-hidden">
                     <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
